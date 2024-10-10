@@ -15,7 +15,7 @@ int prime(int number)
 
     for (int i = 3; i < sqrt(number); i++)
         if (number%i == 0)
-        return 0;
+            return 0;
 
     return 1;
 }
@@ -36,6 +36,6 @@ int main(void)
             printf("Number is not Prime\n");
 
     }
-    
+
     return 0;
 }
