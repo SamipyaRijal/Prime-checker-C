@@ -8,7 +8,7 @@ int prime(int number)
         return 0;
     
     if (number == 2)
-            return 0;
+        return 0;
 
     if (number%2 == 0)
         return 0;
@@ -27,14 +27,13 @@ int main(void)
     while (test_integer != 0){
 
         printf("Enter an integer'(type 0 to end)':");
-            scanf("%d", &test_integer);
+        scanf("%d", &test_integer);
     
         if (prime(test_integer))
             printf("Number is Prime\n");
 
         else
             printf("Number is not Prime\n");
-
     }
 
     return 0;
